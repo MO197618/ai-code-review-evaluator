@@ -1,0 +1,13 @@
+{
+“name”: “ai-code-review-evaluator”,
+“version”: “1.0.0”,
+“description”: “A rule-based code review evaluator for JavaScript, Java, and Python”,
+“type”: “module”,
+“scripts”: {
+“check”: “node src/index.js data/sample.js”,
+“test”: “node –test”
+},
+“engines”: {
+“node”: “>=18”
+}
+}
